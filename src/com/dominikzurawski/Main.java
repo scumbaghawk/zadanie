@@ -58,7 +58,6 @@ public class Main {
 
             String rows = "";
 
-            // iterate through every line and add it to a string
             for (Integer singleRow : value) {
                 rows = rows + singleRow.toString() + ", ";
             }
